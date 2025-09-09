@@ -1,0 +1,63 @@
+Strain And Corrpuption Balance
+
+
+---------------------------------------------------------------------------------------SURVIVAL
+NewWorkModel_Adaptation					- Strain Great Inc
+NewWorkModel_Improved_Adaptation			- Strain Great Inc
+NewWorkModel_Progress					- Strain Moderate Dec
+NewWorkModel_Progress_Cyclical_Fallback			- Strain Moderate Dec
+NewWorkModel_Progress_EfficiencyLower_Fallback		- Strain Moderate Dec
+
+WorkerShifts_Adaptation_Policy				- Strain Slight Dec
+WorkerShifts_Progress_Policy				- Strain Slight Dec
+
+
+---------------------------------------------------------------------------------------ECONOMY
+Alcohol - All 						- Strain Marginal Dec
+
+LabourOrg - Equality 					- Strain Moderate decrease 	-  Corr Moderate Inc
+LabourOrg - Merit 					- Strain Moderate Inc
+
+Maintenance_Equality_Policy 				- Strain Moderate Inc
+Maintenance_Equality_ConsequenceArc_Policy		- Strain Slight Inc
+Maintenance_Merit_Policy				- Strain Slight Inc
+Maintenance_Merit_Trainer_Policy 			- Strain Marginal Inc
+
+WorkplaceControl_Equality_Policy 			- Strain Significantly Dec 	- Corr Moderate Inc
+WorkplaceControl_Merit_EvenLessEffective_Fallback 	- Strain Great Increase
+WorkplaceControl_Merit_Heatnotes_Fallback 		- Strain Great Increase		- Corr Significant Inc
+WorkplaceControl_Merit_LessEffective_Fallback 		- Strain Great Increase		- Corr Significant Inc
+WorkplaceControl_Merit_MoreEffective_Fallback 		- Strain Ext + Sign Inc		- Corr Great Inc
+WorkplaceControl_Merit_Policy 				- DA Strain Extremely Inc	- Corr Significant Inc
+
+
+
+---------------------------------------------------------------------------------------SOCIETY
+Youth_Reason						- Strain Slight Dec
+Youth_Tradition						- Strain Moderate Inc
+
+GuardAuthority_Tradition				- Corr Moderate Inc
+GuardAuthority_Tradition_Fallback_Consequence		- Corr Significantly Inc
+
+---------------------------------------------------------------------------------------RULE
+Guided 							- Corr Slight Inc
+Guards							- Corr Slight Inc
+Propaganda						- Corr Moderate Inc
+Secret Police						- Corr Moderate Inc
+Militia							- Corr Moderate Inc
+---------------------------------------------------------------------------------------BUILDINGS
+HousingBloc_Base					- -1
+HousingBloc_Equality					- -2
+HousingBloc_Merit					- -1
+
+WorkersDormitories_Equality				- -4
+WorkersDormitories_Merit				- -2
+
+PleasureClub_Equality					- -10
+PleasureClub_Merit					- -5
+
+LabourCamp_Competition_Radical				- +12
+
+---------------------------------------------------------------------------------------ABILITY
+Emergency Shift						- Strain Moderate Inc
+Rush Researchers					- Strain Moderate Inc
