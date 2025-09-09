@@ -1,6 +1,7 @@
 /**
 !**/
 !.gitignore
+!.balance
 !Scenarios/Shared/Configs/A_Mod/Mod_Abilities/BP_SPAWNPROTEST.*
 !Scenarios/Shared/Configs/A_Mod/Mod_Abilities/DA_CHEAT.*
 !Scenarios/Shared/Configs/A_Mod/Mod_Abilities/DA_Cheat_Choose.*
